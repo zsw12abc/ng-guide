@@ -1,3 +1,8 @@
-<button class="btn btn-primary" [disabled]="!allowNewSever">Add Server</button>
+<button class="btn btn-primary" [disabled]="!allowNewSever" (click)="onCreateServer()">Add Server</button>
+<!--property binding-->
+<!--<p [innerText]="allowNewSever"></p>-->
+<!--String Interpolation-->
+<!--<p>{{allowNewSever}}</p>-->
+<p>{{serverCreationStatus}}</p>
 <app-server></app-server>
 <app-server></app-server>
