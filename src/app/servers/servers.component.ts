@@ -14,7 +14,7 @@ import {Component, OnInit} from '@angular/core';
 export class ServersComponent implements OnInit {
   allowNewSever = false;
   serverCreationStatus = "No server was created!!!"
-  serverName = '';
+  serverName = 'Testserver';
 
   constructor() {
     //enable button after 2s
